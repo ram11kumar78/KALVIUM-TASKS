@@ -1,0 +1,20 @@
+"{
+  ""number_of_medium_questions"": 10,
+  ""learner_journey"": ""Introduction\nImagine upgrading a part of your computer, expecting a huge performance boost—only to find it's barely faster. Why? That’s where Amdahl’s Law comes in. Today, I’m diving into this principle to understand how optimizing just one part of a system affects the overall performance.\n\nUnderstanding Amdahl’s Law\nI start with the formula:\nSpeedup = 1 / [(1 - P) + (P / S)],\nwhere P is the proportion of the task improved, and S is the speedup of that part. It becomes clear that even a dramatic improvement has limited impact if it only applies to a small portion of the process.\n\nAnalyzing Scenarios with Different P and S Values\nI explore examples: What if 50% of a task is sped up 2×? What if 90% is sped up 10×? Using real numbers helps me visualize the diminishing returns of performance enhancement.\n\nReal-World Applications\nFrom multi-core processors to parallel software, I see how Amdahl’s Law applies to real computing challenges. It helps explain why some optimizations offer dramatic gains and others barely move the needle.\n\nLearning Outcome\nBy the end of this lesson, I will be able to state and apply Amdahl’s Law to analyze performance improvements, interpret its formula, and evaluate the limits of optimization in real-world computing systems."",
+  ""current_module_description"": ""In this module, you will learn about Amdahl’s Law and how it helps evaluate the impact of optimizing specific parts of a computing system on overall performance."",
+  ""previous_module_name_with_description"": ""Instruction Handling and Control Unit Design: Understand how CPU performance is measured using metrics like clock speed, CPI, and instruction count, and how they combine to evaluate overall efficiency."",
+  ""mode_of_execution"": ""Self-Learning-Mentor-Assisted"",
+  ""current_module_lesson_index"": ""8"",
+  ""previous_whole_lessons_in_current_module"": """",
+   ""course_outcomes"": ""Learn Amdahl’s Law, which calculates potential speedup in CPU performance when optimizing specific parts of a system."",
+  ""current_module_lesson_count"": ""2"",
+  ""number_of_hard_questions"": 7,
+  ""current_module_name"": ""Amdahl’s Law and Its Impact on Performance"",
+  ""number_of_quiz_questions"": 35,
+  ""course_name"": ""Computer Organization & Architecture"",
+  ""lu_description"": ""Learn Amdahl’s Law, which calculates potential speedup in CPU performance when optimizing specific parts of a system."",
+  ""instruction_designer_input"": ""The lesson designed around Amdahl’s Law is structured using the ADDIE framework and Gagne's Nine Events of Instruction. The content should maintain a natural continuity from the previous module and lessons by ensuring smooth transitions between concepts. In the Analysis phase, it was identified that learners have already been introduced to performance metrics and CPU efficiency concepts. A hook should be included at the beginning to recall this prior learning. This lesson targets students familiar with performance measurement fundamentals and connects those ideas with Amdahl’s Law in practical scenarios. These pedagogical strategies should blend into the content rather than appear as explicit labels."",
+  ""number_of_easy_questions"": 18,
+  ""time_to_read"": ""40 mins"",
+  ""createdAt"": ""2025-05-09T17:08:29.110Z""
+}"
